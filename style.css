@@ -1,0 +1,70 @@
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: green;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Styling the main game container */
+.game-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+}
+
+/* Title styling */
+h1 {
+    color: #333333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Button styling for user choices */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling the result message box */
+.result-box {
+    background-color: #eaf4fc;
+    color: #333333;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* Specific colors for the result messages */
+.result-tie {
+    color: #f39c12;
+}
+
+.result-win {
+    color: #28a745;
+}
+
+.result-lose {
+    color: #e74c3c;
+}
